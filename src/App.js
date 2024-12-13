@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="teachers" element={<Teachers />} />
-        <Route path="teachers/:name" element={<Featured />} />
+        <Route path="teachers/:topic/:name" element={<Featured />} />
         <Route path="courses" element={<Courses />}>
           <Route index element={<Navigate replace to="html"/>} />
           <Route path="html" element={<CourseContainer data={HTMLCourses} />} />
