@@ -39,3 +39,4 @@ function App() {
 export default App;
 
 //Added Comments just to test if Git commands work here.
+// Second comments testing git commands on terminal
